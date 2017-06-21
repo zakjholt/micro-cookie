@@ -1,0 +1,14 @@
+{
+  "name": "micro-cookie",
+  "version": "1.0.0",
+  "description": "Parses out cookies in micro requests and populates req.cookies",
+  "main": "index.js",
+  "author": "Zak Holt",
+  "license": "MIT",
+  "dependencies": {
+    "cookie": "^0.3.1"
+  },
+  "peerDependencies": {
+    "micro": "^7.1.0"
+  }
+}
