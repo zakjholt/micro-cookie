@@ -5,6 +5,10 @@
   "main": "index.js",
   "author": "Zak Holt",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Zakjholt/micro-cookie"
+  },
   "dependencies": {
     "cookie": "^0.3.1"
   },
