@@ -1,10 +1,13 @@
-<img src="https://raw.githubusercontent.com/alexfreska/micro-cookie/master/cookie.png">
+<img src="https://raw.githubusercontent.com/alexfreska/micro-cookie/master/cookie.png" />
 
 # micro-cookie
+
 > Parses request cookies and puts the object in req.cookies
 
 ## Installation
-`yarn add micro-cookie`
+```sh
+yarn add micro-cookie
+```
 
 ## Usage
 ```javascript
