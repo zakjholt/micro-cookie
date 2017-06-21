@@ -1,7 +1,6 @@
 <p align="center"><img src='https://raw.githubusercontent.com/alexfreska/micro-cookie/master/cookie.png'></p>
 <h2 align="center">micro-cookie</h2>
 <p align="center"><i>Parses request cookies and puts the object in req.cookies</a></i></p>
-<img src="" />
 
 ## Installation
 ```sh
