@@ -1,4 +1,4 @@
-# micro-cookie
+# micro-cookie :cookie:
 
 Parses request cookies and puts the object in req.cookies
 
