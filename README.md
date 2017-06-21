@@ -1,23 +1,21 @@
-# micro-cookie :cookie:
+<img src="https://raw.githubusercontent.com/alexfreska/micro-cookie/master/cookie.png">
 
-Parses request cookies and puts the object in req.cookies
-
----
+# micro-cookie
+> Parses request cookies and puts the object in req.cookies
 
 ## Installation
 `yarn add micro-cookie`
 
-## Import and Usage
+## Usage
 ```javascript
 const parseCookies = require('micro-cookie')
 
 module.exports = parseCookies(async function(req, res) {
   return 'Hello World!'
 })
-
 ```
 
-## With multiple micro-plugins
+## With other micro plugins
 
 ```javascript
 const visualize = require('micro-visualize')
