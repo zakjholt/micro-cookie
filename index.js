@@ -1,9 +1,14 @@
 const { parse } = require("cookie");
 
 module.exports = handler => (req, res) => {
-  const cookies = parse((req.headers && req.headers.cookie) || "");
+  if (req.headers && req.headers.cookie) {
+    try {
+      req.cookies = parse(req.headers.cookie);
+    } catch (err) {
+      console.warn("Could not parse cookie", req.headers.cookie);
+      console.error(err);
+    }
+  }
 
-  const newReq = Object.assign({}, req, { cookies });
-
-  return handler(newReq, res);
+  return handler(req, res);
 };
