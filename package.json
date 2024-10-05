@@ -10,7 +10,7 @@
     "url": "https://github.com/Zakjholt/micro-cookie"
   },
   "dependencies": {
-    "cookie": "^0.3.1"
+    "cookie": "^0.7.0"
   },
   "peerDependencies": {
     "micro": "^7.1.0"
